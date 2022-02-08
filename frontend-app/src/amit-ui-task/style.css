@@ -1,0 +1,229 @@
+.top_nav_links {
+  list-style: none;
+  margin-right: 150px;
+}
+.top_nav_links li {
+  display: inline-block;
+  padding-left: 10px;
+}
+.top_nav_links li button:hover {
+  color: rgba(15, 115, 12, 1);
+  border-color: rgba(15, 115, 12, 1);
+}
+.header {
+  padding-top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 1px solid rgba(230, 230, 230, 1);
+  height: 60px;
+}
+.left-content {
+  display: flex;
+  /* border: 1px solid black; */
+  align-items: center;
+}
+.left-content a {
+  text-decoration: none;
+}
+.left-content a:hover {
+  text-decoration: underline;
+}
+.content {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+}
+.intro-data {
+  display: flex;
+  flex-direction: column;
+}
+.aboutme {
+  display: flex;
+  align-items: center;
+}
+
+.aboutme a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #292929;
+  font-size: 14px;
+}
+.aboutme * {
+  padding: 5px;
+}
+.text * {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #757575;
+  font-size: 14px;
+  padding: 5px;
+}
+.navbar {
+  padding: 10px;
+  padding-left: 30px;
+  border-bottom: 1px solid rgba(230, 230, 230, 1);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0px 2px 10px rgba(230, 230, 230, 0.5);
+  padding-left: 110px;
+}
+.navbar a {
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #757575;
+  text-decoration: none;
+  font-weight: 200;
+  padding-left: 30px;
+}
+.navbar a:hover {
+  color: black;
+}
+.logo {
+  height: 45px;
+  width: 45px;
+  margin-right: auto;
+  padding-left: 140px;
+}
+.follow {
+  border: 1px solid rgba(26, 137, 23, 1);
+  border-radius: 25px;
+  background-color: rgba(26, 137, 23, 1);
+  color: white;
+  border-radius: 50px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.follow:hover {
+  background: rgba(15, 115, 12, 1);
+}
+.social a img {
+  height: 30px;
+  width: 30px;
+}
+.nuology {
+  width: 211px;
+  height: 36px;
+}
+.signin {
+  border: none;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: rgb(26, 137, 23);
+  background-color: white;
+}
+.get-started {
+  border: 1px solid rgb(26, 137, 23);
+  border-radius: 25px;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: rgb(26, 137, 23);
+  background-color: white;
+}
+.centre-item {
+  /* border: 1px solid black; */
+  width: 45%;
+}
+.centre-item h1 {
+  margin-bottom: 0px;
+}
+.centre-body-section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.photo {
+  border-radius: 50px;
+  height: 48px;
+  width: 48px;
+}
+.icon {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+.modal-heading {
+  font-size: 28px;
+  font-weight: 400;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-bottom: 80px;
+}
+.sign-in-opt {
+  border: 0.5px solid rgb(168, 168, 168);
+  /* border-color: rgb(168, 168, 168);; */
+  border-radius: 30px;
+  font-size: 14px;
+  margin: 5px;
+  padding: 10px;
+  width: 212px;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #292929;
+  display: flex;
+  align-items: center;
+  color: #292929;
+  /* justify-content:; */
+}
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  padding-top: 60px;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+  box-shadow: 0px 2px 10px rgba(230, 230, 230, 1);
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.modal-content h1 {
+  margin-bottom: 0px;
+}
+.modal {
+  text-align: center;
+  display: none;
+  position: fixed; /*stay in place*/
+  z-index: 1; /* sit on top */
+  padding-top: 10px; /* location of the box */
+  left: 50;
+  top: 10;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* enable scroll if needed */
+  /* background-color: white; */
+  background-color: rgba(255, 255, 255, 0.95);
+  /* border: 1px solid black; */
+  align-self: center;
+}
+.close {
+  color: #aaaaaa;
+  float: right; 
+  font-size: 28px;
+  font-weight: bold;
+}
+.pointer {
+  cursor: pointer;
+}
+.description {
+  font-size: 13px;
+  color: #757575;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 100px 50px 100px;
+}
+.description a {
+  color: #757575;
+}
+.signup {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  color: #292929;
+}
+.signup a {
+  text-decoration: none;
+  color: rgb(26, 137, 23);
+  font-weight: bold;
+}
