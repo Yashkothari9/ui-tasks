@@ -9,7 +9,6 @@ const {Search} = Input;
 export default function Teacher(){
     const [teacherData,setTeacherData]= useState(data);
     const [columnsHeader,setColumnsHeaders]= useState(columns);
-    const [searchValue,setSearchValue]= useState('');
 
     const onSearch= value => setTeacherData(
         data.filter(entry =>

@@ -1,7 +1,7 @@
 import '../App.css';
-import React, { useState } from 'react';
+import React from 'react';
 import 'antd/dist/antd.css';
-import {Divider,PageHeader, Typography} from "antd";
+import {Divider, Typography} from "antd";
 import Student from './Components/student'; 
 import Teacher from './Components/teacher';
 import Layout from 'antd/lib/layout/layout';
@@ -12,7 +12,7 @@ export default function ScreenUi()
     return (
         <div>
         <Layout>
-          <Header><Typography>Record</Typography></Header>
+          <Header><Typography.Title><h1 style={{color:"yellow", alignItems:"center"}}>Record</h1></Typography.Title></Header>
         <div className='Middle'>
           <div>
             <Student />

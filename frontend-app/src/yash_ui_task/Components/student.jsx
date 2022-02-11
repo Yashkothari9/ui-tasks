@@ -1,4 +1,4 @@
-import React, { useCallback } from "react";
+import React from "react";
 import '../../App.css';
 import { useState } from "react";
 import { data } from "../Data";
@@ -12,7 +12,6 @@ export default function Student(){
 
     const [studentData,setStudentData]= useState(data);
     const [columnsHeader,setColumnsHeaders]= useState(columns);
-    const [searchValue,setSearchValue]= useState('');
 
     const onSearch= value => setStudentData(
         value===""?data:data.filter(entry =>
