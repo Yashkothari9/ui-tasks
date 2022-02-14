@@ -301,6 +301,7 @@
 .signin-modal-close {
   position: absolute;
   right: 1rem;
+  font-size: 4rem;
   top: 1rem;
   cursor: pointer;
   font-family: Times;
