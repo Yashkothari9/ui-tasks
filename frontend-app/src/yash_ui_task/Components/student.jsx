@@ -1,5 +1,6 @@
 import React from "react";
 import '../../App.css';
+import 'antd/dist/antd.css';
 import { useState } from "react";
 import { data } from "../Data";
 import {columns} from "../Columns";
@@ -52,8 +53,9 @@ export default function Student(){
                     <Col span={24}>
                     <Table columns={columnsHeader} 
                            dataSource={studentData} 
-                           pagination={{ defaultPageSize: 5,
-                                         pageSizeOptions: ['3', '5'], 
+                           className="TableDesign"
+                           pagination={{ defaultPageSize: 3,
+                                         pageSizeOptions: ['4', '5'], 
                                          showSizeChanger: true}} />
                     </Col>
                 </Row>

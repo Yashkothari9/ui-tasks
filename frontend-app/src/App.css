@@ -36,8 +36,9 @@ caption {
 
 
 th, td {
-  border: 1px solid black;
-  padding: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1px;
+  /* text-align: center; */
 }
 
 .RowOp{
@@ -45,11 +46,12 @@ th, td {
   margin-bottom: 1.6rem;
 }
 
-.TableDesign th
+.TableDesign tr 
 {  
-    font-weight: bold;
+    font-weight: 300;
+    background-color: rgb(253, 255, 255);
+    /* text-align: center; */
 }
-
 .boxStyle{
   width:700;
   border-radius: "16px";
