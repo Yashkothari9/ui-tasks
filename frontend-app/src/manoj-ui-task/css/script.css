@@ -139,21 +139,12 @@
   padding: 0.3rem 0.4rem;
 }
 
-#follow-link a:hover {
-  background-color: red;
-  color: white;
-  border-radius: 16px;
-  padding: 4px 8px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 14px;
+#follow-link:hover {
+  background-color: rgb(29, 122, 25);
 }
 
-#mail-link :hover {
-  background-color: rgb(35, 110, 32);
-  /* color: white; */
-  /* border-radius: 2.4rem; */
-  /* padding: 0.3rem 0.4rem; */
+#mail-link:hover {
+  background-color: rgb(29, 122, 25);
 }
 
 #module-heading {
@@ -179,7 +170,7 @@
   font-weight: 400;
   line-height: 20px;
   color: rgb(117, 117, 117);
-  margin: 10px 20% 0px;
+  margin: 10px 12% 0px;
   text-align: center;
 }
 
@@ -234,7 +225,6 @@
   flex-wrap: nowrap;
   position: relative;
   align-items: center;
-  justify-content: space-around;
   flex-direction: column;
   background-color: white;
   border-radius: 4px;
@@ -248,15 +238,13 @@
 
 .getstarted-modal {
   display: flex;
-  flex-wrap: nowrap;
   position: relative;
   align-items: center;
-  justify-content: space-around;
   flex-direction: column;
   background-color: white;
   border-radius: 4px;
   width: 38%;
-  height: 84%;
+  height: 74%;
 
   box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
     0.1em 0.1em 1em rgba(117, 117, 117, 0.3);
@@ -267,6 +255,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
+  margin-top: 4rem;
 }
 
 .sign-in-option a {
@@ -301,21 +291,20 @@
 .signin-modal-close {
   position: absolute;
   right: 1rem;
-  font-size: 4rem;
-  top: 1rem;
+  top: 0.4rem;
   cursor: pointer;
   font-family: Times;
-  font-size: 16px;
+  font-size: 24px;
   color: #aaaaaa;
 }
 
 .getstarted-modal-close {
   position: absolute;
   right: 1rem;
-  top: 1rem;
+  top: 0.2rem;
   cursor: pointer;
   font-family: Times;
-  font-size: 16px;
+  font-size: 24px;
   color: #aaaaaa;
 }
 
@@ -327,4 +316,10 @@
 .social-links img {
   width: 24px;
   height: 24px;
+}
+
+.modal-footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
