@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      How to Use CSS Modules with Create React App | by Ned Schwartz | Nulogy |
+      Medium
+    </title>
+    <link rel="stylesheet" href="css/script.css" />
+    <script
+      src="https://kit.fontawesome.com/568f7ab086.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header-border">
+      <div id="align-header">
+        <img
+          src="./images/icon.png"
+          alt="icon"
+          style="width: 3.2rem; height: 2rem"
+        />
+
+        <div class="header-login-section">
+          <button id="get-started-button">Get Started</button>
+          <button id="sign-in-button">Sign in</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="navigation-section-shadow">
+      <div class="header-navigation-section">
+        <a href="#">
+          <img
+            src="./images/nulogy.png"
+            alt="Nulogy Image"
+            style="width: 211px; height: 36px"
+          />
+        </a>
+        <a href="#">engineering</a>
+        <a href="#">culture</a>
+      </div>
+    </div>
+
+    <div style="margin: 0% 30%">
+      <h1 id="module-heading">How to Use CSS Modules with Create React App</h1>
+      <h2 id="short-answer-heading">Short answer: you can't. You gotta ⏏</h2>
+
+      <div class="profile">
+        <div style="display: flex">
+          <div class="profile-image">
+            <img src="./images/profile-image.jpeg" alt="Profile-Image" />
+          </div>
+
+          <div id="align-profile-section">
+            <div class="profile-info">
+              <div class="link-decoration">
+                <a href="#">Ned Schwartz</a>
+
+                <a href="#" id="follow-link">Follow</a>
+                <a href="#" id="mail-link">
+                  <i class="far fa-envelope" style="padding: 0rem"></i>
+                </a>
+              </div>
+            </div>
+
+            <div id="time-section">
+              <div class="link-decoration">
+                <a
+                  href="#"
+                  style="color: rgb(41, 41, 41, 0.5); margin-left: 4px"
+                  >Feb 6, 2017
+                </a>
+              </div>
+              <p style="color: rgb(41, 41, 41, 0.5)">· 6 min read</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a href="#"
+            ><img src="./images/twitter-small-icon.png" alt="twitter"
+          /></a>
+          <a href="#"
+            ><img src="./images/facebook-small-icon.png" alt="Facebook"
+          /></a>
+          <a href="#">
+            <img src="./images/linkedin-small-icon.png" alt="LinkedIn"
+          /></a>
+          <a href="#"><img src="./images/link-small-icon.png" alt="link" /></a>
+          <a href="#"><img src="./images/save-small-icon.png" alt="save" /></a>
+          <a href="#"><img src="./images/menu-small-icon.png" alt="menu" /></a>
+        </div>
+      </div>
+
+      <img
+        src="./images/img.png"
+        alt="Image"
+        style="
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 28px;
+        "
+      />
+
+      <p id="image-info">
+        <b>Update January 18th, 2018:</b> CSS Module support has landed in alpha
+        builds of Create React App v2 🎉.
+      </p>
+    </div>
+
+    <div class="signin-modal-bg">
+      <div class="signin-modal">
+        <div style="margin-top: 4rem">
+          <h2>Welcome back.</h2>
+        </div>
+
+        <div class="sign-in-option" style="margin-top: 3.2rem">
+          <div class="align-sign-in-option">
+            <img src="./images/google-icon.png" alt="Google Icon" />
+            <a href="#">Sign in with Google</a>
+          </div>
+
+          <div class="align-sign-in-option">
+            <img src="./images/facebook-icon.png" alt="Facebook Icon" />
+            <a href="#">Sign in with Facebook</a>
+          </div>
+          <div class="align-sign-in-option">
+            <img src="./images/twitter-icon.png" alt="Twitter Icon" />
+            <a href="#">Sign in with Twitter</a>
+          </div>
+          <div class="align-sign-in-option">
+            <img src="./images/apple-icon.png" alt="Apple Icon" />
+            <a href="#">Sign in with Apple</a>
+          </div>
+          <div class="align-sign-in-option">
+            <img src="./images/email-icon.png" alt="Email Icon" />
+            <a href="#">Sign in with Email</a>
+          </div>
+        </div>
+
+        <div class="modal-footer" style="margin-top: 2rem">
+          <p
+            style="
+              font-family: Arial, Helvetica, sans-serif;
+              margin-bottom: 2rem;
+              margin-top: 0rem;
+            "
+          >
+            No account?
+            <span
+              style="font-size: 16px; font-weight: 700; color: rgb(26, 137, 23)"
+              >Create One</span
+            >
+          </p>
+
+          <p class="modal-tnc-info">
+            Click "Sign In" to agree to Medium's
+            <a href="#" style="color: rgb(117, 117, 117)">“Terms of Service</a>
+            and acknowledge that Medium’s
+            <a href="#" style="color: rgb(117, 117, 117)"> Privacy Policy</a>
+            applies to you.
+          </p>
+        </div>
+        <span class="signin-modal-close">&times;</span>
+      </div>
+    </div>
+
+    <div class="getstarted-modal-bg">
+      <div class="getstarted-modal">
+        <div style="margin-top: 4rem">
+          <h2>Join Medium.</h2>
+        </div>
+
+        <div class="sign-in-option">
+          <div class="align-sign-in-option">
+            <img src="./images/google-icon.png" alt="Google Icon" />
+            <a href="#">Sign in with Google</a>
+          </div>
+
+          <div class="align-sign-in-option">
+            <img src="./images/facebook-icon.png" alt="Facebook Icon" />
+            <a href="#">Sign in with Facebook</a>
+          </div>
+          <div class="align-sign-in-option">
+            <img src="./images/email-icon.png" alt="Email Icon" />
+            <a href="#">Sign in with Email</a>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <p
+            style="
+              font-family: Arial, Helvetica, sans-serif;
+              margin-bottom: 2rem;
+              margin-top: 4rem;
+            "
+          >
+            Already have an account?
+            <span
+              style="font-size: 16px; font-weight: 700; color: rgb(26, 137, 23)"
+              >Sign in</span
+            >
+          </p>
+
+          <p class="modal-tnc-info">
+            Click “Sign Up” to agree to Medium’s
+            <a href="#" style="color: rgb(117, 117, 117)">“Terms of Service</a>
+            and acknowledge that Medium’s
+            <a href="#" style="color: rgb(117, 117, 117)"> Privacy Policy</a>
+            applies to you.
+          </p>
+        </div>
+        <span class="getstarted-modal-close">&times;</span>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

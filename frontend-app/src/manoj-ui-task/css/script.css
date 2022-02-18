@@ -1,0 +1,325 @@
+#header-border {
+  margin: 0rem;
+  padding: 0;
+  border-bottom: 1px solid rgba(230, 230, 230, 1);
+}
+
+#align-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 12.8%;
+  padding: 0rem 2rem;
+  align-items: center;
+}
+
+#navigation-section-shadow {
+  box-shadow: 0px 4px 5px rgba(230, 230, 230, 0.6);
+  padding: 0.2rem;
+}
+
+.header-login-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+}
+
+.header-navigation-section {
+  display: flex;
+  align-items: center;
+  margin: 0px 14.8%;
+  margin-top: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.header-navigation-section a {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 1.8rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: rgb(117, 117, 117);
+}
+
+.header-login-section button {
+  border-style: none;
+  background: none;
+  cursor: pointer;
+  color: rgb(26, 137, 23);
+  margin: 0% 0.4rem;
+  font-size: 0.92rem;
+  padding: 0.5rem 0.8rem;
+}
+
+#get-started-button {
+  border-style: solid;
+  border-color: rgb(26, 137, 23);
+  border-radius: 8rem;
+  border-width: 1px;
+}
+
+#align-profile-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 0.4rem;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-image img {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+
+.profile-info .social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem;
+}
+
+.profile-info a {
+  text-decoration: none;
+  color: black;
+  margin: 4px;
+}
+
+#time-section {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 0rem;
+}
+
+.link-decoration a {
+  text-decoration: none;
+}
+
+.header-navigation-section a:hover {
+  color: black;
+}
+
+.link-decoration a:hover {
+  text-decoration: underline;
+}
+
+#image-info {
+  font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 32px;
+  color: rgb(41, 41, 41);
+  font-style: italic;
+}
+
+#follow-link {
+  background-color: rgb(26, 137, 23);
+  color: white;
+  border-radius: 16px;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#mail-link {
+  background-color: rgb(26, 137, 23);
+  color: white;
+  border-radius: 2.4rem;
+  padding: 0.3rem 0.4rem;
+}
+
+#follow-link:hover {
+  background-color: rgb(29, 122, 25);
+}
+
+#mail-link:hover {
+  background-color: rgb(29, 122, 25);
+}
+
+#module-heading {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+  color: rgb(41, 41, 41);
+  margin-bottom: 0.6rem;
+}
+
+#short-answer-heading {
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: rgb(117, 117, 117);
+  margin-top: 0rem;
+}
+
+.modal-tnc-info {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(117, 117, 117);
+  margin: 10px 12% 0px;
+  text-align: center;
+}
+
+.signin-modal-bg {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+
+  top: 0;
+  left: 0;
+
+  background-color: rgba(255, 255, 255, 0.965);
+  justify-content: center;
+  align-items: center;
+
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s opacity 0.5s;
+}
+
+.getstarted-modal-bg {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+
+  top: 0;
+  left: 0;
+
+  background-color: rgba(255, 255, 255, 0.965);
+  justify-content: center;
+  align-items: center;
+
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s opacity 0.5s;
+}
+
+.signin-bg-active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.getstarted-bg-active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.signin-modal {
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 4px;
+  width: 38%;
+  height: 84%;
+
+  box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+    0.1em 0.1em 1em rgba(117, 117, 117, 0.3);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.getstarted-modal {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 4px;
+  width: 38%;
+  height: 74%;
+
+  box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+    0.1em 0.1em 1em rgba(117, 117, 117, 0.3);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.sign-in-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 4rem;
+}
+
+.sign-in-option a {
+  text-decoration: none;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.9rem;
+  color: rgb(41, 41, 41);
+  margin-left: 16px;
+}
+
+.align-sign-in-option {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(41, 41, 41, 0.5);
+  padding: 0.8rem 1.4rem;
+  border-radius: 2rem;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+.signin-modal h2 {
+  margin-top: 10%;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  color: black;
+  font-weight: 400;
+}
+
+.signin-modal-close {
+  position: absolute;
+  right: 1rem;
+  top: 0.4rem;
+  cursor: pointer;
+  font-family: Times;
+  font-size: 24px;
+  color: #aaaaaa;
+}
+
+.getstarted-modal-close {
+  position: absolute;
+  right: 1rem;
+  top: 0.2rem;
+  cursor: pointer;
+  font-family: Times;
+  font-size: 24px;
+  color: #aaaaaa;
+}
+
+.sign-in-option img {
+  width: 0.9rem;
+  height: 0.9rem;
+}
+
+.social-links img {
+  width: 24px;
+  height: 24px;
+}
+
+.modal-footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
